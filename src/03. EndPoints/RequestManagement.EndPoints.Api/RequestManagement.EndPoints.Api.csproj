@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01. Core\RequestManagement.Core.ApplicationServices\RequestManagement.Core.ApplicationServices.csproj" />
+    <ProjectReference Include="..\..\01. Core\RequestManagement.Core.Domain\RequestManagement.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\02. Infra\Data\RequestManagement.Infra.Data.SqlServer\RequestManagement.Infra.Data.SqlServer.csproj" />
+  </ItemGroup>
+
+
+</Project>
